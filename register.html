@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAROLINE RENTAL</title>
+    <link rel="stylesheet" href="design.css">
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/logo1.gif" alt="Logo">
+            <ul>
+                <li><a href="login.html" class="login">Login</a></li>
+                <li><a href="register.html" class="register">Register</a></li>
+            </ul>      
+        </nav>
+    </div>
+    <div class="navigation">
+            <ul>
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="" class="">Product</a>
+                    <ul>
+                        <li><a href="Product.html">Family Car</a></li>
+                        <li><a href="">Comercial Car</a></li>
+                        <li><a href="">Luxury Car</a></li></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="">Contact</a></li>
+            </ul>
+    </div>
+    <div class="center">
+        <h2>Register</h2>
+        <form name="register" action="" class="form_daftar" onsubmit="return validateRegister()">
+            <div class="daftar">
+                <label for="">Name :</label>
+                <br>
+                <br>
+                <input type="text" class="name" id="name">
+                <br>
+                <br>
+                <label for="">Email :</label>
+                <br>
+                <br>
+                <input type="email" class="email" id="email">
+                <br>
+                <br>
+                <label for="">Gender :</label>
+                <br>
+                <br>
+                <input type="radio" name="gender" value="male" id="gender1"> Male
+                <input type="radio" name="gender" value="female" id="gender2"> Female
+                <br>
+                <br>
+                <label for="">City :</label>
+                <br>
+                <br>
+                <select name="selek" id="city">
+                <option value="">Pilih</option>
+                <option value="">Jakarta</option>
+                <option value="">Bekasi</option>
+                <option value="">Depok</option>
+                <option value="">Bandung</option>
+                <option value="">Bogor</option>
+                <option value="">Tanggerang</option>
+                <option value="">Other</option>
+                </select>
+                <br>
+                <br>
+                <label for="">Address :</label>
+                <br>
+                <br>
+                <textarea name="address" id="address" cols="117" rows="10"></textarea>
+                <br>
+                <br>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="contente">
+            <div class="social">
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt=""></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="sletter">
+                <div class="subscribe">
+                    <h3>Subscribe Our Newsletter</h3>
+                    <input type="email" name="" placeholder="Your Email" id="" required="required">
+                    <br>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;Copyright 2020 by Antonio Josef</p>
+        </div>
+    </div>
+</body>
+</html>

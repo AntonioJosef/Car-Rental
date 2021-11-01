@@ -1,0 +1,494 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    margin-top: 59px;
+    margin-bottom: 250px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    background-color: white; 
+}
+
+.header img {
+    width: 175px;
+    height: 75px;
+    float: left;
+    margin-left: 40px;
+}
+
+.header nav ul {
+    float: right;
+    list-style: none;
+}
+
+.header nav ul li {
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.header nav ul li a {
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+    border-collapse: separate;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.login {
+    padding: 7px 25px 7px 25px;
+    margin-right: 25px;
+}
+
+.register {
+    padding: 7px 15px 7px 15px;
+    margin-right: 15px;
+}
+
+.navigation {
+    top: 0;
+    background: #333;
+    width: 100%;
+    height: 38px;
+    position: fixed;
+    margin-top: 80px;
+}
+
+.navigation ul {
+    list-style: none;
+    position: absolute;
+    list-style: none;
+}
+
+.navigation ul li{
+    float: left;
+    display: inline;
+} 
+
+
+.navigation ul li a {
+    color: white;
+    text-align: center;
+    width: 150px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background: red;
+}
+
+.navigation ul li ul {
+    background: #333;
+    display: none;
+}
+
+.navigation ul li ul li {
+    float: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.footer .contente {
+    display: flex;
+    height: 200px;
+}
+
+.footer .contente div {
+    flex: 1;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.social ul {
+    padding-top: 75px;
+    float: right;
+}
+
+.social ul li {
+    display: inline;
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+}
+
+.social ul li a {
+    margin-top: 0px;
+}
+
+.sletter {
+    padding-top: 70px;
+    margin-left: 2px;
+}
+
+.subscribe {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(235, 232, 232);
+    padding-left: 3px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe input {
+    background: transparent;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.subscribe button {
+    background-color: rgb(0, 102, 255);
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 18px;
+}
+
+.copyright {
+    background: rgb(0, 102, 255);
+    height: 50px;
+}
+
+.copyright p {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
+.current {
+    background-color: blue;
+}
+
+.main {
+    background-image: url('images/Alphard.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.main nav h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.pertama {
+    padding-top: 255px;
+    font-size: 90px;
+}
+
+.pertama span {
+    color: blue;
+}
+
+.dua {
+    margin-top: 55px;
+    font-size: 45px;
+    display: block;
+}
+
+.dua span {
+    background-color: blue;
+}
+
+.tiga {
+    padding-top: 50px;
+}
+
+.main nav h1 button {
+    font-size: 30px;
+    padding: 10px 30px;
+    background-color: blue;
+    border: 3px solid white;
+}
+
+.main nav h1 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.center h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form_masuk {
+    text-align: center;
+}
+
+.masuk label {
+    font-weight: bold;
+}
+
+.masuk input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.masuk button {
+    padding: 5px  25px;
+    color: white;
+    background-color: blue;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.center form p span a{
+    color: blue;
+    text-decoration: none;
+}
+
+.form_daftar {
+    font-weight: bold;
+    width: 100%;
+}
+
+.daftar {
+    padding-left: 25%;
+    padding-right: -25%;
+    width: 75%;
+}
+
+.daftar .name {
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: black;
+    text-align: left;
+}
+
+.daftar .email {
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: black;
+    text-align: left;
+    clear: both;
+}
+
+.daftar input {
+    padding-top: 10px;
+}
+
+.daftar select  {
+    width: 100%;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.daftar button {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-left: 45%;
+}
+
+.center {
+    padding-top: 1%;
+}
+
+.produk {
+    width: 100%;
+    padding-top: 3%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.produk h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produk p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 70px 400px;
+}
+
+.mobil {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.mobil div {
+    flex: 1;
+    text-align: center;
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 320px;
+}
+
+.mobil div p { 
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mobil div img {
+    margin-top: 20px;
+    width: 175px;
+    height: 116px;
+}
+
+.contact {
+    width: 100%;
+}
+
+.contact h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+.konten {
+    width: 100%;
+    display: flex;
+}
+
+.konten form {
+    display: flex;
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(184, 178, 178);
+    margin-left: 100px;
+    height: 400px;
+    padding: 20px;
+}
+
+.konten form div label {
+    font-weight: bold;
+}
+
+.data {
+    flex: 1;
+}
+  
+.pesan {
+    flex: 1;
+}
+
+.kontak div {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.kontak div span {
+    color: blue;
+}
+
+.konten form div input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    width: 80%;
+}
+
+.konten div button {
+    background-color: blue;
+    float: right;
+    color: white;
+    margin: 15px;
+    padding: 10px 30px;
+    border: none;
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+    .header {
+        height: 187px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .header img {
+        float: none;
+        text-align: center;
+    }
+    .header nav ul {
+        float: none; 
+    }
+    .header nav ul li {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .header nav ul li a {
+        float: left;
+    }
+    .navigation {
+        margin-top: 150px;
+    }
+    .body {
+        width: 100%;
+        height: 100%;
+    }
+}
